@@ -1,6 +1,6 @@
-module github.com/iawia002/lux
+module github.com/fabe-xx/lux
 
-go 1.18
+go 1.19
 
 require (
 	github.com/MercuryEngineering/CookieMonster v0.0.0-20180304172713-1584578b3403
@@ -41,3 +41,5 @@ require (
 	golang.org/x/text v0.4.0 // indirect
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
 )
+
+replace github.com/iawia002/lux => github.com/fabe-xx/lux
